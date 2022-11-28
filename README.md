@@ -24,18 +24,7 @@ mvn clean package
 
 ### Run
 ```
-java -jar target/spring-mysql-redis.jar
-```
-
-##
-### Get information about system health, configurations, etc.
-```
-http://localhost:8091/env
-http://localhost:8091/health
-http://localhost:8091/info
-http://localhost:8091/metrics
-```
-
+java -jar target/demoapp-1.jar
 
 ### Swagger-ui REST API Reference & Test
 - http://localhost:8080/swagger-ui.html
